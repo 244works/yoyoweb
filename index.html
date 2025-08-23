@@ -6,18 +6,33 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>第２学年だより夏休み号web</h1>
-    <h2>夏休みの宿題について</h2>
-    <img src="image1.png" alt="夏休みの宿題" />
-    <p>２学期始業式（九月一日）に封筒に入れて持参</p>
-    <ul>
-      <li>「こくご せいかつ さんすう サマー３２」漢字・計算ブック</li>
-      <li>夏休みの絵日記</li>
-      <li>生活科の観察カード</li>
-      <li>読書カード</li>
-      <li>自由研究</li>
-      <li>作品紹介カード</li>
-      <li>なつやすみ 生活振り返りカード</li>
-    </ul>
+    <header>
+      <h1 class="text-4xl">第２学年だより夏休み号web</h1>
+    </header>
+    <main>
+      <h2 class="text-2xl">夏休みの宿題について</h2>
+      <p>２学期始業式（九月一日）に封筒に入れて持参</p>
+      <div class="flex flex-wrap gap-8 items-start justify-center px-6">
+        <ul class="flex-1 min-w-[200px] max-w-[320px] list-disc list-inside">
+          <li>「こくご せいかつ さんすう サマー３２」漢字・計算ブック</li>
+          <li>夏休みの絵日記</li>
+          <li>生活科の観察カード</li>
+          <li>読書カード</li>
+          <li>自由研究</li>
+          <li>作品紹介カード</li>
+          <li>なつやすみ 生活振り返りカード</li>
+        </ul>
+        <div
+          class="flex-1 min-w-[180px] max-w-[260px] flex items-center justify-center"
+        >
+          <img
+            src="image1.png"
+            alt="夏休みの宿題"
+            class="max-w-[220px] rounded-lg shadow"
+          />
+        </div>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
